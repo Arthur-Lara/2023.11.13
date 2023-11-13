@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script lang="javascript">
+
+        var k, kart1, kart2, kart3, kart4, kart5, kart6, kart7, kart8, kart9, kart10,i,j;
+        var temp;
+        var media;
+
+        temp = new array(10);
+        for (i=0;i<10;i++)
+        {
+            temp[i]=new array (3)
+        }
+
+        kart1="Roberta";
+        kart2="Amélia";
+        kart3="Elis";
+        kart4="Juliana";
+        kart5="Maria";
+        kart6="Andréia";
+        kart7="Gal";
+        kart8="Rita";
+        kart9="Adriana";
+        kart10="Josefa";
+
+
+    for(i=0;i<10;1++)
+    {
+        for(j=0;j<10;j++)
+        {
+            temp[i]=Math.floor(Math.random(240))
+        }
+    }
+
+    media = new array(10);
+
+    for(i=0;i<10;1++)
+    {
+        for(j=0;j<10;j++)
+        {
+            k += temp[i][j];
+        }
+        media[i] = (k / 3);
+    }
+
+    document.write("<table>");
+        document.write("<tr>");
+            document.write("<td>");
+                document.write("Nome do piloto");
+            document.write("</td>");
+            document.write("<td>");
+                document.write("Tempo medio");
+            document.write("</td>");
+        document.write("</tr>");
+        document.write("<tr>");
+            document.write("<td>");
+                document.write(kart1);
+            document.write("</td>");
+            document.write("<td>");
+                document.write(media[1]);
+            document.write("</td>");
+        document.write("</tr>");
+    document.write("<//table>");            
+
+</script>
+
+</body>
+</html>
